@@ -53,16 +53,27 @@ button:hover {
     font-size: 1.05rem;
 }
 
-.hex-colors h1 {
-    height: 13rem;
-    line-height: 13rem;
-    text-align: center;
-    /* border: 2px solid red; */
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.hex-colors h2 {
-    height: 5rem;
-    line-height: 5rem;
-    text-align: center;
+.h1heading {
     /* border: 2px solid yellow; */
+    height: 10rem;
+}
+
+.h2heading {
+    /* border: 2px solid orange; */
+    height: 4rem;
+}
+
+@media screen and (min-width: 500px) {
+    .h1heading {
+        padding: 2rem;
+    }
+    .h2heading {
+        padding: 1rem;
+    }
 }

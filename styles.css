@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+html {
+    font-size: 16px;
+}
+
+@keyframes colorAnimation {
+    0% {
+        color: #000;
+    } 20% {
+        color: #222;
+    } 50% {
+        color: white;
+    } 80% {
+        color: #222;
+    } 100% {
+        color: #000;
+    }
+}
+
+h1, h2 {
+    animation-name: colorAnimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+button {
+    margin-top: 4rem;
+    padding: 1rem 1.5rem;
+    font-size: 1.5rem;
+    background-color: bisque;
+    border: 1.5px solid black;
+}
+
+button:hover {
+    background-color:azure;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 1.4rem;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.hex-colors {
+    text-align: center;
+}
+
+.mainDiv {
+    height: 100vh;
+    font-size: 1.05rem;
+}
+
+.hex-colors h1 {
+    height: 15rem;
+    line-height: 15rem;
+    text-align: center;
+    /* border: 2px solid red; */
+}
+
+.hex-colors h2 {
+    height: 5rem;
+    line-height: 5rem;
+    text-align: center;
+    /* border: 2px solid yellow; */
+}
